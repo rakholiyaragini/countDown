@@ -23,7 +23,7 @@ const changes = () => {
     hr.innerHTML = h;
     min.innerHTML = m;
     sec.innerHTML = s;
-    const start = () => {
+    const  start = () => {
     
         console.log("Timer Started");
     
@@ -56,7 +56,7 @@ const changes = () => {
                 }
             }
     
-        }, 10);
+        }, 1000); 
     }
 
     start();
